@@ -1,0 +1,215 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.9;
+    color: #333;
+    background-color: #f1b2d9;
+    padding-top: 120px; /* Adjusted for navbar height */
+}
+
+/* Navigation Styling */
+.navbar {
+    background-color: #f8f1f8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 980;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    height: 80px; /* Explicit height for the navbar */
+}
+
+.navbar .nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar .nav-list li {
+    margin: 0 15px;
+}
+
+.navbar .nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-list a:hover {
+    color: #f5109d;
+}
+
+/* Logo Styling */
+.navbar .logo img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Main Section Styling */
+.section {
+    padding: 60px 20px;
+    margin-top: 80px; /* Adjusted for navbar height */
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+#period, #program, #course, #use, #issue, #irregular {
+    padding-top: 50px; 
+}
+
+/* Box Styling for Each Section */
+.box-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.firstHalf, .secondHalf {
+    flex: 1;
+}
+
+.text-big {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0f0e0e;
+    margin-bottom: 40px;
+}
+
+.text-small {
+    font-size: 25px;
+    color: #000000;
+    line-height: 2.3;
+    text-align: justify;
+}
+
+/* Environmental Issues Section */
+.fifth section {
+    background-color: #e1f5fe;
+    padding: 40px 20px;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fifth h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #030303;
+}
+
+.fifth ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.fifth ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.fifth .text-small {
+    text-align: left;
+}
+
+/* Irregular Cycle Section */
+.sixth .box-main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sixth h1 {
+    color: #333;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Form Styling */
+form fieldset {
+    border: 2px solid #f5109d;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+
+    margin: 20px 0;
+    border: 1px solid #ece6e6;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #f5109ddb;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 60px;
+    margin-left: 500px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+ .btn:hover {
+    background-color: #ff029e;
+    /* color: #333; */
+}
